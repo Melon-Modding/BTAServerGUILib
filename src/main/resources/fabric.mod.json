@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "melonbtacommands",
+  "version": "${version}",
+
+	"name": "Testing Commands",
+	"description": "Attempting to figure out how commands work.",
+	"authors": [
+		"Prophet_Sama",
+		"WatermelonMojito",
+		"Lunatic_Uncle"
+	],
+	"contact": {
+		"homepage": "https://github.com/Master449",
+		"sources": ""
+	},
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+		"beforeGameStart": [
+			"prophetsama.testing.MelonBTACommands"
+		],
+    "afterGameStart": [
+			"prophetsama.testing.MelonBTACommands"
+    ],
+		"main": [
+			"prophetsama.testing.MelonBTACommands"
+		]
+	},
+  "mixins": [
+		"testing.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+		"halplibe": ">=3.2.0"
+  },
+  "suggests": {
+  }
+}
