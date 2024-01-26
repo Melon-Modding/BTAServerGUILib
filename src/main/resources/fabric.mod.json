@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "melonbtacommands",
+  "id": "serverguilib",
   "version": "${version}",
 
 	"name": "Testing Commands",
 	"description": "Attempting to figure out how commands work.",
 	"authors": [
-		"Prophet_Sama",
 		"WatermelonMojito",
-		"Lunatic_Uncle"
+		"Cross"
 	],
 	"contact": {
-		"homepage": "https://github.com/Master449",
+		"homepage": "https://github.com/Melon-Modding",
 		"sources": ""
 	},
 
@@ -20,13 +19,13 @@
   "environment": "*",
   "entrypoints": {
 		"beforeGameStart": [
-			"prophetsama.testing.MelonBTACommands"
+			"melonmodding.servergui.ServerGUILib"
 		],
     "afterGameStart": [
-			"prophetsama.testing.MelonBTACommands"
+			"melonmodding.servergui.ServerGUILib"
     ],
 		"main": [
-			"prophetsama.testing.MelonBTACommands"
+			"melonmodding.servergui.ServerGUILib"
 		]
 	},
   "mixins": [
